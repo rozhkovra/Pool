@@ -12,8 +12,8 @@ import android.graphics.Rect;
 public class GameScreen extends Screen {
 	World world;
 	public static Rect pocketRect = new Rect(400, 0, 400 + 100, 100);
-	public static Rect cueBallRect = new Rect(450, 125, 450 + 11, 125 + 11);
-	public static Rect ballRect = new Rect(448, 104, 448 + 16, 104 + 16);
+	public static Rect cueBallRect = new Rect(430, 140, 430 + 22, 140 + 22);
+	public static Rect ballRect = new Rect(430, 100, 430 + 22, 100 + 22);
 	public static Rect cueRect = new Rect(0, 315, 0 + 160, 315 + 10);
 	
 	public GameScreen(Game game){
